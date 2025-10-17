@@ -1,0 +1,36 @@
+{
+  "name": "rocket-crash-ton-casino",
+  "version": "1.0.0",
+  "description": "🚀 Rocket Crash Casino with real TON payments",
+  "main": "ton-api.js",
+  "scripts": {
+    "start": "node ton-api.js",
+    "dev": "nodemon ton-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ton",
+    "casino",
+    "crash",
+    "blockchain",
+    "cryptocurrency",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tonweb": "^0.0.66",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ws": "^8.14.2",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
